@@ -14,3 +14,22 @@ p {
     color: white;
     text-align: center;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 35%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
